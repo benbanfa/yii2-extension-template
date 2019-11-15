@@ -1,0 +1,27 @@
+{
+    "name": "benbanfa/yii2-extension-template",
+    "description": "benbanfa/yii2-extension-template",
+    "type": "library",
+    "require": {
+        "benbanfa/exclude-composer-assets": "dev-master",
+        "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^3"
+    },
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "packagist.org": false
+        },
+        {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/benbanfa/exclude-composer-assets.git"
+        }
+    ]
+}
